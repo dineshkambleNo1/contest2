@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0px;
+  font-family: Montserrat;
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+}
+
+#startup {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fcaf02;
+}
+
+.leftside {
+  padding-left: 2rem;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 2rem;
+}
+
+/*  middle  landing page   */
+
+.middlelandingpage {
+  padding: 30px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  /* color: white; */
+}
+
+.middlelandingpage .right {
+  width: 100%;
+}
+
+.middlelandingpage .right button {
+  color: black;
+  background-color: #fcaf02;
+  padding: 0.5rem 4rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.middlelandingpage .left {
+  width: 50%;
+  height: 100%;
+}
+
+.middlelandingpage p {
+  font-size: 1.2rem;
+}
+
+/* form */
+
+.contactus {
+  padding: 30px;
+}
+
+.contactus h3 {
+  font-size: 2rem;
+  color: #fcaf02;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-control {
+  padding: 0.8rem 1.5rem;
+  background-color: black;
+  margin: 1rem 0rem;
+  border-color: #fcaf02;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: #fcaf02;
+  font-family: Montserrat;
+}
+
+.contactus .form .textcity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactus .textcity .form-control:first-child {
+  margin-right: 1rem;
+}
+.contactus .textcity .form-control:last-child {
+  margin-left: 1rem;
+}
+
+.contactus button {
+  margin: auto;
+  display: block;
+  color: black;
+  background-color: #fcaf02;
+  padding: 0.5rem 4rem;
+  margin-top:2rem; 
+  margin-bottom:2rem; 
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.tablediv {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border-color: #fcaf02;
+  border-spacing: 0;
+  color: #fcaf02;
+  border-width: 1;
+  /*   */
+}
+
+th {
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  text-align: left;
+  padding: 1.5rem 2.5rem;
+  font-weight: 400;
+}
+
+td {
+  border: none;
+  border-right: 1px solid;
+  text-align: left;
+  padding: 1.2rem 2.5rem;
+}
+
+#lastitem {
+  background-color: #fcaf02;
+  color: black;
+}
